@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Queres ir a um date comigo? 🌹</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
+    rel="stylesheet">
+  <!-- canvas-confetti CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <!-- Lottie Player CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+</head>
+
+<body>
+  <!-- Floating Hearts Background Container -->
+  <div id="hearts-container" class="hearts-container"></div>
+
+  <main class="app-container">
+    <!-- Card: Date Request -->
+    <section id="card-convite" class="card">
+      <h1 class="card-title">Posso dar-te flores? 🌹</h1>
+      <div class="buttons-container">
+        <button id="btn-sim" class="btn btn-yes">Sim</button>
+        <button id="btn-nao" class="btn btn-no">Não</button>
+      </div>
+    </section>
+
+    <!-- Card: Success Screen -->
+    <section id="card-sucesso" class="card hidden">
+      <div class="card-image-container lottie-image-container">
+        <div id="lottie-container" class="lottie-container"></div>
+      </div>
+      <h1 class="card-title success-title">Sabia que ias aceitar! 🥰</h1>
+      <p class="card-text">És mesmo previsivel</p>
+    </section>
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
