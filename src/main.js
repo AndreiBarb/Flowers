@@ -156,7 +156,7 @@ if (btnSim) {
           renderer: 'svg',
           loop: true,
           autoplay: true,
-          path: '/flower_buque.json'
+          path: './flower_buque.json'
         });
       }
     }
